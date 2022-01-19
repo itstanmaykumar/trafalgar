@@ -2,7 +2,13 @@
     font-family: 'Mulish', sans-serif;
 }
 
+body{
+    overflow-x: hidden !important;
+}
 
+.text-main{
+    color: #458FF6;
+}
 .btn-main{
     background-color: #458FF6;
     color: white;
@@ -28,4 +34,22 @@
 
 .fs-0{
     font-size: 50px;
+}
+
+.rounded-20{
+    border-radius: 20px;
+}
+.rounded-top-20{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bg-main-grad{
+    background: linear-gradient(35deg, #67C3F3, #5A98F2);
+}
+
+
+#services{
+    background: url(../img/service_back.png);
+    background-size: cover;
 }
