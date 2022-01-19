@@ -1,3 +1,31 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+
+
+.btn-main{
+    background-color: #458FF6;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.btn-main:hover{
+    color: white;
+    box-shadow: 3px 3px 8px #adcfff;
+}
+.btn-outline-main{
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.btn-outline-main:hover{
+    background-color: #458FF6;
+    color: white;
+}
+
+.fs-0{
+    font-size: 50px;
+}
